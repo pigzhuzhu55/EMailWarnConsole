@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <users>
+    <user>
+      <name>名字1</name>
+      <mail>xx1@139.com</mail>
+      <qq>1111</qq>
+    </user>
+    <user>
+      <name>名字2</name>
+      <mail>xx2@139.com</mail>
+      <qq>2222</qq>
+    </user>
+    <user>
+      <name>名字3</name>
+      <mail>xx3@139.com</mail>
+      <qq>3333</qq>
+    </user>
+    <user>
+      <name>名字4</name>
+      <mail>xx4@139.com</mail>
+      <qq>444</qq>
+    </user>
+  </users>
+  <sites>
+  <site>
+    <name>web站点1</name>
+    <path>D:\weblogs\日志目录1</path>
+    <watch>Exception;</watch>
+    <user>名字1;名字2;</user>
+  </site>
+  <site>
+    <name>web站点2</name>
+    <path>D:\weblogs\日志目录2</path>
+    <watch>Exception;</watch>
+    <user>名字1;名字2;名字3;名字4;</user>
+  </site>
+  </sites>
+</root>
